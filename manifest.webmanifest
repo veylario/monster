@@ -1,0 +1,84 @@
+{
+  "name": "Monster ",
+  "short_name": "Monster ",
+  "id": "com.example.TheConvictionOfGunDudeMobile",
+  "description": "Top down shoot'em up game with a leaderboard, randomized rooms, and upgrades.",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "68dfee24389473151782f665bc60e648d7b7894ecbb12e3284f2b29f6e8b49bc-ios-icon-20.png",
+        "sizes": "20x20"
+      },{
+        "src": "6f4083e96ac602ad4fc329e57b4e5a3fad362ac423d4a7c31d7a7ef48b58a797-ios-icon-29.png",
+        "sizes": "29x29"
+      },{
+        "src": "7d93ba06309bffa7c1271ad63dc31d6c92fed6c880fca1550725e8ce3c3b7c4e-android-icon-36.png",
+        "sizes": "36x36"
+      },{
+        "src": "095f3d91c71c608d0a69d8db9fdf3f9e9774f3fc0804ad6d38d31a630d0aac7f-ios-icon-40.png",
+        "sizes": "40x40"
+      },{
+        "src": "24693e1105921ca6e2e3075ecfa3353517389dbccf96cdbf4f03e8d3c34cdc3b-android-icon-48.png",
+        "sizes": "48x48"
+      },{
+        "src": "39f0382d16f659a55e1ab0eaec0d5e0055a91e2cb55d7165142e89675fc76063-ios-icon-50.png",
+        "sizes": "50x50"
+      },{
+        "src": "618405390b27c1122c9e71ef5a117977d74363792c9466b352451afa23e59e0f-ios-icon-57.png",
+        "sizes": "57x57"
+      },{
+        "src": "d253d1e2a04076b716713ec16a020c9510999269f2141748715692ac19792d3f-ios-icon-58.png",
+        "sizes": "58x58"
+      },{
+        "src": "f051dd895148b5a27d44ee0c867a4420560c27b77206401ab7df9182b2cc81bc-ios-icon-60.png",
+        "sizes": "60x60"
+      },{
+        "src": "d14faf185a578688cb3b5275c8277173f48ba399f5c92db72882d35baaa4c169-android-icon-72.png",
+        "sizes": "72x72"
+      },{
+        "src": "c3365046a81928a942ebb59bf186416cd0ac0782b1b4b847d428f2aadafe902e-ios-icon-76.png",
+        "sizes": "76x76"
+      },{
+        "src": "48e7c5cad84044f382c8fcaeac489995b710d62a9ba81afd318aa4f695bc0425-ios-icon-80.png",
+        "sizes": "80x80"
+      },{
+        "src": "570335ea524b16cbbb189954cde78bb9be693181a94c6863bc21b4fb13b20c5e-ios-icon-87.png",
+        "sizes": "87x87"
+      },{
+        "src": "994d50b1812252d10b614b76d4f398f19f97ea67f42577ac34e39ead506ca2d2-android-icon-96.png",
+        "sizes": "96x96"
+      },{
+        "src": "8da458c456561a552ad7307c192e7094acce3425b8107be2803faf09c7dc4037-ios-icon-100.png",
+        "sizes": "100x100"
+      },{
+        "src": "f72a3b2582bd415c3d2552425b29ba72ceced2b9bac14be6655706a4c13d5a45-ios-icon-114.png",
+        "sizes": "114x114"
+      },{
+        "src": "11e1a49cfc872412bfeb8074824ff42f12e5058dbb3843bcb60ce88726c1f230-ios-icon-120.png",
+        "sizes": "120x120"
+      },{
+        "src": "8394e93add7fb00db7171bf3d94e70c083ba44326fcf7dae4dfcde3596908fd1-android-icon-144.png",
+        "sizes": "144x144"
+      },{
+        "src": "0d6491e3611a74612c5345a6c159ca9492565055761e5d3ff6bba6444c38270e-ios-icon-152.png",
+        "sizes": "152x152"
+      },{
+        "src": "f1b90d53ac3c250a3bcb7c48be40de5675c73b9f816db4850ddcd2690e683fb1-ios-icon-167.png",
+        "sizes": "167x167"
+      },{
+        "src": "b05fd458763e131e22662bd94f896122415b55d51728d58ce1a52dfdc1855a32-ios-icon-180.png",
+        "sizes": "180x180"
+      },{
+        "src": "57be9230e89315924bc804b063f1836e67f122ead88a9f945185ba2d9c92e269-android-icon-192.png",
+        "sizes": "192x192"
+      },{
+        "src": "533254ffa09ec1188f13151400cc54eddd76b661c99ed10637dce50ede9c2d1e-desktop-icon-512.png",
+        "sizes": "512x512"
+      },{
+        "src": "473665d810548d306ab18e6423c0a459c87a88e19152f634e9df2e20d9259ecf-ios-icon-1024.png",
+        "sizes": "1024x1024"
+      }]
+}
