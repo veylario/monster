@@ -9,7 +9,7 @@ gdjs.evtsExt__CameraShake__Noise4d = {};
 gdjs.evtsExt__CameraShake__Noise4d.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__CameraShake__Noise4d.userFunc0x1dbd5e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CameraShake__Noise4d.userFunc0x26bd638 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const name = eventsFunctionContext.getArgument("Name");
 const x = eventsFunctionContext.getArgument("X");
@@ -24,7 +24,7 @@ gdjs.evtsExt__CameraShake__Noise4d.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__CameraShake__Noise4d.userFunc0x1dbd5e8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__CameraShake__Noise4d.userFunc0x26bd638(runtimeScene, eventsFunctionContext);
 
 }
 

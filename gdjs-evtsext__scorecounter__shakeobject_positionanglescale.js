@@ -1687,7 +1687,7 @@ gdjs.copyArray(gdjs.evtsExt__ScoreCounter__ShakeObject_PositionAngleScale.ShakeO
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(22313892);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19102564);
 }
 }
 if (isConditionTrue_0) {

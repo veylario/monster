@@ -59,24 +59,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Money_Bag_Pixel"), gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1);
-{gdjs.evtTools.storage.readNumberFromJSONFile("Total_Points", "Points", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(0));
-}
 {gdjs.evtTools.storage.readNumberFromJSONFile("Total_Money", "Money", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(1));
-}
-{for(var i = 0, len = gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1.length ;i < len;++i) {
-    gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1[i].SetScore(runtimeScene.getGame().getVariables().getFromIndex(1).getAsNumber(), null);
-}
-}
-{for(var i = 0, len = gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1.length ;i < len;++i) {
-    gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1[i].SetScore(gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1[i].Score(null) + (runtimeScene.getGame().getVariables().getFromIndex(0).getAsNumber()), null);
-}
-}
-{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
-}
-{gdjs.evtTools.storage.writeNumberInJSONFile("Total_Points", "Points", runtimeScene.getGame().getVariables().getFromIndex(0).getAsNumber());
-}
-{gdjs.evtTools.storage.writeNumberInJSONFile("Total_Money", "Money", (( gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1.length === 0 ) ? 0 :gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1[0].Score(null)));
 }
 }
 
@@ -124,6 +107,35 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Money_Bag_Pixel"), gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1);
+{runtimeScene.getGame().getVariables().getFromIndex(1).add(runtimeScene.getGame().getVariables().getFromIndex(0).getAsNumber());
+}
+{for(var i = 0, len = gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1.length ;i < len;++i) {
+    gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1[i].SetScore(runtimeScene.getGame().getVariables().getFromIndex(1).getAsNumber(), null);
+}
+}
+{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber((( gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1.length === 0 ) ? 0 :gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1[0].Score(null)));
+}
+{gdjs.evtTools.storage.writeNumberInJSONFile("Total_Money", "Money", (( gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1.length === 0 ) ? 0 :gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1[0].Score(null)));
+}
+{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
+}
+{gdjs.evtTools.storage.writeNumberInJSONFile("Total_Points", "Points", runtimeScene.getGame().getVariables().getFromIndex(0).getAsNumber());
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustResumed(runtimeScene);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Money_Bag_Pixel"), gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1);
+{gdjs.evtTools.storage.readNumberFromJSONFile("Total_Money", "Money", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(1));
+}
 {for(var i = 0, len = gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1.length ;i < len;++i) {
     gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1[i].SetScore(runtimeScene.getGame().getVariables().getFromIndex(1).getAsNumber(), null);
 }
