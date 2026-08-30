@@ -120,7 +120,14 @@ if (isConditionTrue_0) {
 
 
 let isConditionTrue_0 = false;
-{
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Money_Bag_Pixel"), gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1);
+{for(var i = 0, len = gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1.length ;i < len;++i) {
+    gdjs.MenuCode.GDMoney_9595Bag_9595PixelObjects1[i].SetScore(runtimeScene.getGame().getVariables().getFromIndex(1).getAsNumber(), null);
+}
+}
 }
 
 }

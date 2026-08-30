@@ -798,7 +798,7 @@ for (var i = 0, k = 0, l = gdjs.Game_95auswahlCode.GDWesleyObjects4.length;i<l;+
 gdjs.Game_95auswahlCode.GDWesleyObjects4.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22916972);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22939444);
 }
 }
 if (isConditionTrue_0) {
@@ -829,7 +829,7 @@ for (var i = 0, k = 0, l = gdjs.Game_95auswahlCode.GDWesleyObjects3.length;i<l;+
 gdjs.Game_95auswahlCode.GDWesleyObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22917724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22940196);
 }
 }
 if (isConditionTrue_0) {

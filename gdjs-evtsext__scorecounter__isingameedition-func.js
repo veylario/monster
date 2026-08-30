@@ -9,7 +9,7 @@ gdjs.evtsExt__ScoreCounter__IsInGameEdition = {};
 gdjs.evtsExt__ScoreCounter__IsInGameEdition.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ScoreCounter__IsInGameEdition.userFunc0x100db28 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ScoreCounter__IsInGameEdition.userFunc0x1a0d2e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 eventsFunctionContext.returnValue = game.isInGameEdition && game.isInGameEdition();
@@ -19,7 +19,7 @@ gdjs.evtsExt__ScoreCounter__IsInGameEdition.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__ScoreCounter__IsInGameEdition.userFunc0x100db28(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ScoreCounter__IsInGameEdition.userFunc0x1a0d2e0(runtimeScene, eventsFunctionContext);
 
 }
 

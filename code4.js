@@ -93,6 +93,8 @@ gdjs.copyArray(runtimeScene.getObjects("Upgrate_Demage"), gdjs.ShopCode.GDUpgrat
     gdjs.ShopCode.GDLevel_9595CounterDemageObjects2[i].getBehavior("Text").setText(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
 }
+{runtimeScene.getGame().getVariables().getFromIndex(3).setNumber(5);
+}
 {gdjs.evtTools.storage.writeNumberInJSONFile("LevelDemage", "Shop", runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber());
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(30);
@@ -110,6 +112,8 @@ gdjs.copyArray(runtimeScene.getObjects("Upgrate_Demage"), gdjs.ShopCode.GDUpgrat
 }
 }
 {gdjs.evtTools.storage.writeNumberInJSONFile("Total_Money", "Money", runtimeScene.getGame().getVariables().getFromIndex(1).getAsNumber());
+}
+{gdjs.saveState.createGameSaveStateInStorage(runtimeScene, "StatusDemage", "Sword,Level,Prise");
 }
 elseEventsChainSatisfied = true;
 }
@@ -137,6 +141,8 @@ gdjs.copyArray(runtimeScene.getObjects("Upgrate_Demage"), gdjs.ShopCode.GDUpgrat
 {for(var i = 0, len = gdjs.ShopCode.GDLevel_9595CounterDemageObjects2.length ;i < len;++i) {
     gdjs.ShopCode.GDLevel_9595CounterDemageObjects2[i].getBehavior("Text").setText(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
+}
+{runtimeScene.getGame().getVariables().getFromIndex(3).setNumber(7);
 }
 {gdjs.evtTools.storage.writeNumberInJSONFile("LevelDemage", "Shop", runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber());
 }
@@ -181,6 +187,8 @@ gdjs.copyArray(runtimeScene.getObjects("Upgrate_Demage"), gdjs.ShopCode.GDUpgrat
 {for(var i = 0, len = gdjs.ShopCode.GDLevel_9595CounterDemageObjects1.length ;i < len;++i) {
     gdjs.ShopCode.GDLevel_9595CounterDemageObjects1[i].getBehavior("Text").setText(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
+}
+{runtimeScene.getGame().getVariables().getFromIndex(3).setNumber(10);
 }
 {gdjs.evtTools.storage.writeNumberInJSONFile("LevelDemage", "Shop", runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber());
 }
